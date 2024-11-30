@@ -1,5 +1,11 @@
-const { initializeApp, getApps } = require('firebase/app');
-const { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } = require('firebase/auth');
+const { initializeApp, getApps } = require("firebase/app");
+const {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+} = require("firebase/auth");
+require("dotenv").config({ path: "env/.env" });
 
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
@@ -20,7 +26,7 @@ const SignUp = async (email, password) => {
   try {
     await createUserWithEmailAndPassword(firebaseAuth, email, password);
   } catch (error) {
-    console.error('Sign up failed:', error.message);
+    console.error("Sign up failed:", error.message);
     throw new Error(error.message);
   }
 };
@@ -29,7 +35,7 @@ const SignOut = async () => {
   try {
     await signOut(firebaseAuth);
   } catch (error) {
-    console.error('Sign out failed:', error.message);
+    console.error("Sign out failed:", error.message);
     throw new Error(error.message);
   }
 };
