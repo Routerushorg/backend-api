@@ -11,14 +11,6 @@ const routes = [
   },
   {
     method: 'POST',
-    path: '/optimize-route',
-    handler: async (request, h) => {
-      const { addresses } = request.payload;
-      return { optimizedRoute: `Optimized route for addresses: ${addresses.join(', ')}` };
-    },
-  },
-  {
-    method: 'POST',
     path: '/register',
     handler: async (request, h) => {
       const { email, password } = request.payload;
