@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Route Rush API</title>
 </head>
 <body>
-    <h1>Route Rush API</h1>
-    <p>This project is a backend application designed to manage user authentication and API services. It leverages Firebase for authentication and Hapi.js as the server framework. The application provides essential functionalities such as user registration, login, and logout, making it a suitable starting point for projects requiring secure user management.</p>
-
-    <p>Additionally, the project is containerized using Docker, ensuring ease of deployment and scalability. The codebase follows a modular structure to separate concerns and improve maintainability, making it simple to extend or modify as needed.</p>
-
-    <p>To run the application, environment variables are utilized to secure sensitive information like Firebase credentials, and all dependencies are installed automatically during the setup process. The API can be accessed locally or deployed to a server environment for production use.</p>
-
+    <h1>Backend API</h1>
+    <p>The Backend API is a robust API designed to manage user authentication and provide essential API services. It leverages Firebase for secure authentication and Hapi.js as the server framework. This API offers key functionalities, including user registration, login, and logout, making it suitable for applications that require dependable user management.</p>
+    <h2>Features</h2>
+    <ul>
+        <li>Secure user authentication powered by Firebase</li>
+        <li>Comprehensive RESTful API endpoints for user operations</li>
+        <li>Well-structured, modular codebase ensuring easy maintenance and scalability</li>
+        <li>Seamless deployment using Docker containerization</li>
+    </ul>
     <footer>
-        <p>&copy; 2024 Route Rush API. Powered by Firebase and Hapi.js.</p>
+        <p>&copy; 2024 Backend API. Powered by Firebase and Hapi.js.</p>
     </footer>
 </body>
 </html>
