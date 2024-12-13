@@ -68,8 +68,5 @@ npm start</code></pre>
         <h2>7. Notes</h2>
         <p>Ensure the <code>.env</code> file is properly configured before running the application. This file must not be shared publicly as it contains sensitive credentials.</p>
     </section>
-    <footer>
-        <p>Created with ❤️ for developers.</p>
-    </footer>
 </body>
 </html>
