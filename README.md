@@ -14,8 +14,5 @@
         <li>Well-structured, modular codebase ensuring easy maintenance and scalability</li>
         <li>Seamless deployment using Docker containerization</li>
     </ul>
-    <footer>
-        <p>Powered by Firebase and Hapi.js.</p>
-    </footer>
 </body>
 </html>
