@@ -15,7 +15,7 @@
         <li>Seamless deployment using Docker containerization</li>
     </ul>
     <footer>
-        <p>&copy; 2024 Backend API. Powered by Firebase and Hapi.js.</p>
+        <p>Powered by Firebase and Hapi.js.</p>
     </footer>
 </body>
 </html>
